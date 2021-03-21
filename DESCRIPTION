@@ -1,0 +1,21 @@
+Package: AddDistTreeSplit
+Title: additive distance tree splitting
+Version: 1.0
+Authors@R: 
+    person(given = "Evelyne",
+           family = "Vigneau",
+           role = c("aut", "cre"),
+           email = "evelyne.vigneau@oniris-nantes.fr")
+Description: A function for recursive spiltting of an additive distance tree.
+License: GPL-3 
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Imports: 
+    phytools,
+    ape,
+    stats,
+    utils
